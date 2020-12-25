@@ -1,14 +1,14 @@
 import React from 'react';
-import Header from './components/Header';
-import Profile from './components/Profile';
+import Splash from './components/Splash';
 import Publications from './components/Publications';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Profile />
+      <Splash />
       <Publications />
+      <Contact />
     </>
   ) 
 }

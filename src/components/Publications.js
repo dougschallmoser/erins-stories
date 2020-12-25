@@ -1,34 +1,34 @@
 import React from 'react';
-import Publication from './Publication';
 
 const Publications = () => {
   return (
     <section id="publications">
-      <div id="publications-header">Publications</div>
-      <div id="publications-grid">
-      <Publication 
-          title="Lydia"
-          source="The Hunger"
-          time="Winter 2021"
-        />
-        <Publication 
-          title="The Horses"
-          source="(mac)ro(mic)"
-          time="Winter 2021"
-        />
-        <Publication 
-          title="The Crawdad"
-          source="Flash Fiction Magazine"
-          url="https://flashfictionmagazine.com/?s=The+Crawdad"
-          time="Summer 2020"
-        />
-        <Publication 
-          title="Unicorn Cake"
-          source="Litro"
-          url="https://www.litromagazine.com/usa/2020/11/unicorn-cake/"
-          time="Fall 2020"
-        />
+      <div className="header">Publications</div>
+
+      <div className="publication-container">
+        <div className="publications-time">Winter 2021</div>
+        <div className="publication">
+          "Lydia" / <em>The Hunger</em> / Forthcoming
+        </div>
+        <div className="publication">
+          "The Horses" / <em>(mac)ro(mic)</em> / Forthcoming
+        </div>
       </div>
+
+      <div className="publication-container">
+        <div className="publications-time">Fall 2020</div>
+        <div className="publication">
+          "Unicorn Cake" / <em>Litro</em> / <a href="https://www.litromagazine.com/usa/2020/11/unicorn-cake/" target="_blank" rel="noreferrer">Read Story</a>
+        </div>
+      </div>
+
+      <div className="publication-container">
+        <div className="publications-time">Summer 2020</div>
+        <div className="publication">
+          "The Crawdad" / <em>Flash Fiction Magazine</em> / Forthcoming / <a href="https://flashfictionmagazine.com/?s=The+Crawdad" target="_blank" rel="noreferrer">Read Story</a>
+        </div>
+      </div>
+
     </section>
   )
 }
