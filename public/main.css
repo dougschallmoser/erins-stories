@@ -5,11 +5,11 @@
 
 a {
   text-decoration: none;
-  color: #006958;
+  color: #00b496;
 }
 
 a:hover {
-  color: rgb(71, 141, 70);
+  color: #006958;
 }
 
 #splash {
@@ -124,7 +124,7 @@ a:hover {
   }
 
   .contact-icons a {
-    padding: 14px 24px;
+    padding: 14px 20px;
     width: 40px;
     font-size: 10px;
   }
@@ -138,6 +138,6 @@ a:hover {
   }
 
   #splash img {
-    margin-top: 70px;
+    margin-top: 50px;
   }
 }
