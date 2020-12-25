@@ -1,0 +1,138 @@
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  overflow: hidden
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#root {
+  background-image: url(/splash.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -webkit-background-size: cover;
+  height: 100vh;
+}
+
+#header {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'Special Elite', cursive;
+  color: #fff;
+}
+
+#subtitle {
+  font-size: 32px;
+  font-family: 'Special Elite', cursive;
+}
+
+#profile {
+  
+}
+
+#profile img {
+  height: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+#publications {
+  margin-top: 50px;
+  overflow-y: auto;
+  height: 50vh;
+  color: #fff;
+}
+
+#publications-header {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+#publications-grid {
+  margin: 0 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 5% 2%;
+}
+
+.publication-item {
+  position: relative;
+  width: 260px;
+  height: 140px;
+  border-radius: 10px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 15px;
+}
+
+.publication-item-overlay {
+  border-radius: 10px;
+  background: #fff;
+  opacity: 0.80;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.publication-content {
+  color: #000;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
+.publication-content a {
+  font-size: 16px;
+  color: rgb(51, 97, 66);
+}
+
+.publication-content a:hover {
+  color: rgb(101, 190, 131);
+}
+
+.publication-title {
+  font-size: 24px;
+  text-align: center;
+  background: rgb(51, 97, 66);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 6px 0;
+  color: #fff;
+}
+
+.publication-source {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 2px 0;
+  font-style: italic;
+}
+
+.publication-time {
+  font-size: 14px;
+  margin-top: 10px;
+  background: rgb(51, 97, 66);
+  opacity: 0.5;
+  color: #fff;
+  
+}
+
+.center {
+  text-align: center;
+}
