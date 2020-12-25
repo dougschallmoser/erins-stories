@@ -25,7 +25,7 @@ const Publications = () => {
       <div className="publication-container">
         <div className="publications-time">Summer 2020</div>
         <div className="publication">
-          "The Crawdad" / <em>Flash Fiction Magazine</em> / Forthcoming / <a href="https://flashfictionmagazine.com/?s=The+Crawdad" target="_blank" rel="noreferrer">Read Story</a>
+          "The Crawdad" / <em>Flash Fiction Magazine</em> / <a href="https://flashfictionmagazine.com/?s=The+Crawdad" target="_blank" rel="noreferrer">Read Story</a>
         </div>
       </div>
 

@@ -33,7 +33,7 @@ a:hover {
 
 #splash img {
   height: 50%;
-  margin-top: 130px;
+  margin-top: 140px;
   border: 1px solid #fff;
   border-radius: 50%;
 }
@@ -135,5 +135,9 @@ a:hover {
 
   #name {
     letter-spacing: 0;
+  }
+
+  #splash img {
+    margin-top: 70px;
   }
 }
