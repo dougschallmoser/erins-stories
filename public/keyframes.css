@@ -58,3 +58,23 @@
   0% {filter: blur(1.5rem);}
   100% {filter: none;}
 }
+
+@-moz-keyframes blur {
+  0% {filter: blur(1.5rem);}
+  100% {filter: none;}
+}
+
+@-webkit-keyframes blur {
+  0% {filter: blur(1.5rem);}
+  100% {filter: none;}
+}
+
+@-o-keyframes blur {
+  0% {filter: blur(1.5rem);}
+  100% {filter: none;}
+}
+
+@-ms-keyframes blur {
+  0% {filter: blur(1.5rem);}
+  100% {filter: none;}
+}
