@@ -13,6 +13,7 @@ a:hover {
 }
 
 #splash {
+  position: relative;
   padding-top: 30px;
   text-align: center;
   font-size: 48px;
@@ -25,11 +26,14 @@ a:hover {
   -ms-background-size: cover;
   -webkit-background-size: cover;
   height: 100vh;
+  animation: blur ease 4s;
+  animation-fill-mode: forwards;
 }
 
 #name {
+  background: none;
   letter-spacing: 0.5em;
-  animation: fadeIn ease 2s;
+  animation: fadeIn ease 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 1s;
   opacity: 0;
@@ -40,13 +44,14 @@ a:hover {
   margin-top: 140px;
   border: 1px solid #fff;
   border-radius: 50%;
-  animation: fadeIn ease 2s, zoomIn ease 2s;
+  animation: fadeIn ease 2.5s, zoomIn ease 2.5s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
   opacity: 0;
 }
 
 #subtitle {
+  background: none;
   padding-top: 5px;
   font-size: 32px;
   animation: fadeIn ease 2s;
@@ -79,7 +84,7 @@ a:hover {
 }
 
 .publication {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 2em;
 }
 
@@ -129,7 +134,7 @@ a:hover {
 
 @media screen and (max-width: 800px) {
   #publications {
-    margin: 5% 2%;
+    margin: 9% 2%;
   }
 
   .publication {
