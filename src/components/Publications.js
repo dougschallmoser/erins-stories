@@ -1,4 +1,5 @@
 import React from 'react';
+import Publication from './Publication';
 
 const Publications = () => {
   return (
@@ -7,26 +8,34 @@ const Publications = () => {
 
       <div className="publication-container">
         <div className="publications-time">Winter 2021</div>
-        <div className="publication">
-          "Lydia" / <em>The Hunger</em> / Forthcoming
-        </div>
-        <div className="publication">
-          "The Horses" / <em>(mac)ro(mic)</em> / Forthcoming
-        </div>
+        <Publication 
+          link=""
+          title="Lydia"
+          source="The Hunger"
+        />
+        <Publication 
+          link=""
+          title="The Horses"
+          source="(mac)ro(mic)"
+        />
       </div>
 
       <div className="publication-container">
         <div className="publications-time">Fall 2020</div>
-        <div className="publication">
-        <a href="https://www.litromagazine.com/usa/2020/11/unicorn-cake/" target="_blank" rel="noreferrer">"Unicorn Cake"</a> / <em>Litro</em>
-        </div>
+        <Publication 
+          link="https://www.litromagazine.com/usa/2020/11/unicorn-cake/"
+          title="Unicorn Cake"
+          source="Litro"
+        />
       </div>
 
       <div className="publication-container">
         <div className="publications-time">Summer 2020</div>
-        <div className="publication">
-        <a href="https://flashfictionmagazine.com/?s=The+Crawdad" target="_blank" rel="noreferrer">"The Crawdad"</a> / <em>Flash Fiction Magazine</em>
-        </div>
+        <Publication 
+          link="https://flashfictionmagazine.com/?s=The+Crawdad"
+          title="The Crawdad"
+          source="Flash Fiction Magazine"
+        />
       </div>
 
     </section>
