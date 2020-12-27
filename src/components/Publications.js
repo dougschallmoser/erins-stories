@@ -37,7 +37,7 @@ const Publications = () => {
       <div className="publication-container">
         <div className="publications-time">Summer 2020</div>
         <Publication 
-          link="https://flashfictionmagazine.com/?s=The+Crawdad"
+          link="https://flashfictionmagazine.com/blog/2020/07/18/the-crawdad/"
           title="The Crawdad"
           source="Flash Fiction Magazine"
         />
