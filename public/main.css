@@ -19,12 +19,12 @@ a:hover {
   font-size: 48px;
   color: #fff;
   background-image: url(/splash.jpg);
-  background-size: cover;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -webkit-background-size: cover;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -ms-background-size: contain;
+  -webkit-background-size: contain;
   height: 100vh;
   animation: blur ease 4s;
   animation-fill-mode: forwards;
@@ -51,6 +51,7 @@ a:hover {
 }
 
 #subtitle {
+  letter-spacing: 0.5em;
   background: none;
   padding-top: 5px;
   font-size: 32px;
@@ -81,11 +82,17 @@ a:hover {
 .publications-time {
   font-size: 28px;
   margin: 0.5em 0;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 .publication {
   font-size: 20px;
   line-height: 2em;
+}
+
+.forthcoming {
+  color: rgb(161, 161, 161);
 }
 
 #contact {
