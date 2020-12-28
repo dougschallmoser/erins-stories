@@ -9,7 +9,7 @@ const Publication = ({ link, title, source }) => {
         </>
         : 
         <>
-        "{title}" / <em>{source}</em> / forthcoming
+          "{title}" / <em>{source}</em> / <span className="forthcoming">forthcoming</span>
         </>
 }
     </div>
