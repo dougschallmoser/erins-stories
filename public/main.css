@@ -89,6 +89,54 @@ a:hover {
   line-height: 2em;
 }
 
+.publication-title {
+  color: #00b496;
+  cursor: pointer;
+}
+
+.box {
+  position: relative;
+  width: 700px;
+  z-index: 2;
+  animation: fadeIn ease 4s;
+  animation-fill-mode: forwards;
+}
+
+#preview-frame {
+  width: 700px;
+  height: 450px;
+  border: 3px solid #006958;
+}
+
+.close {
+  position: relative;
+  float: right;
+  right: -6px;
+  font-size: 1em;
+  padding: 0.25em 0.5em;
+  background: #006958;
+  color: #fff;
+  cursor: pointer;
+}
+
+.open {
+  position: relative;
+  float: left;
+  font-size: 1em;
+  padding: 0.25em 0.5em;
+  background: #006958;
+  color: #fff;
+  cursor: pointer;
+}
+
+.open a:hover, .close:hover {
+  color: #00b496;
+}
+
+.open a {
+  color: #fff;
+}
+
 .forthcoming {
   color: rgb(161, 161, 161);
 }
@@ -162,5 +210,17 @@ a:hover {
 
   #splash img {
     margin-top: 50px;
+  }
+
+  .box {
+    position: relative;
+    width: 90vw;
+    z-index: 2;
+  }
+  
+  #preview-frame {
+    width: 90vw;
+    height: 400px;
+    border: 3px solid #006958;
   }
 }
