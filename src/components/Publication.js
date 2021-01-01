@@ -21,7 +21,7 @@ const Publication = ({ link, title, source }) => {
             <div className="box">
               <div className="close" onClick={handleClose}>close preview</div>
               <div className="open"><a href={link} target="_blank" rel="noreferrer">open story</a></div>
-              <iframe id="preview-frame" src={link} title="Preview Story" />
+              <iframe id="preview-frame" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" src={link} title="Preview Story" />
             </div> 
         }
         </>
