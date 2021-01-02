@@ -15,11 +15,6 @@ const Publications = () => {
         />
         <Publication 
           link=""
-          title="Ingrid's Earthworm"
-          source="Second Chance Lit"
-        />
-        <Publication 
-          link=""
           title="Lydia"
           source="The Hunger"
         />
@@ -27,6 +22,11 @@ const Publications = () => {
           link=""
           title="The Horses"
           source="(mac)ro(mic)"
+        />
+        <Publication 
+          link="https://www.secondchancelit.com/schallmoser"
+          title="Ingrid's Earthworm"
+          source="Second Chance Lit"
         />
       </div>
 
