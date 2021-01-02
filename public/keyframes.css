@@ -78,3 +78,33 @@
   0% {filter: blur(1.5rem);}
   100% {filter: none;}
 }
+
+@keyframes beat {
+  0% {transform: scale(1,1);}
+  50% {transform: scale(1.2,1.2);}
+  100% {transform: scale(1,1);}
+}
+
+@-moz-keyframes beat {
+  0% {transform: scale(1,1);}
+  50% {transform: scale(1.2,1.2);}
+  100% {transform: scale(1,1);}
+}
+
+@-webkit-keyframes beat {
+  0% {transform: scale(1,1);}
+  50% {transform: scale(1.2,1.2);}
+  100% {transform: scale(1,1);}
+}
+
+@-o-keyframes beat {
+  0% {transform: scale(1,1);}
+  50% {transform: scale(1.2,1.2);}
+  100% {transform: scale(1,1);}
+}
+
+@-ms-keyframes beat {
+  0% {transform: scale(1,1);}
+  50% {transform: scale(1.2,1.2);}
+  100% {transform: scale(1,1);}
+}

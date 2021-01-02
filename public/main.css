@@ -171,18 +171,27 @@ a:hover {
 }
 
 .contact-icons a {
-  width: 70px;
+  width: 50px;
   color: #000;
-  padding: 26px 36px;
+  padding: 26px 34px;
   border-radius: 50%;
   background: #fff;
   text-decoration: none;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  transition: 1s ease;
 }
 
 .contact-icons a:hover {
   background: #00b496;
   color: #fff;
+  animation: beat 1s 1 alternate;
+  -webkit-animation: beat 1s 1 alternate;
+  -moz-animation: beat 1s 1 alternate;
+  -o-animation: beat 1s 1 alternate;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 800px) {
