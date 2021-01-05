@@ -10,6 +10,11 @@ const Publications = () => {
         <div className="publications-time">Winter 2021</div>
         <Publication 
           link=""
+          title="Front Porch Kathy"
+          source="Wrongdoing Magazine"
+        />
+        <Publication 
+          link=""
           title="Dead Things"
           source="Twin Pies Literary"
         />
