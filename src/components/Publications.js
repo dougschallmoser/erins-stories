@@ -13,6 +13,9 @@ const Publications = () => {
           title="Front Porch Kathy"
           source="Wrongdoing Magazine"
         />
+      </div>
+
+      <div className="publication-container">
         <div className="publications-time">Winter 2021</div>
         <Publication 
           link=""
