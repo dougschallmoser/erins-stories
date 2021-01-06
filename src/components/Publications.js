@@ -7,12 +7,13 @@ const Publications = () => {
       <div className="header">Publications</div>
 
       <div className="publication-container">
-        <div className="publications-time">Winter 2021</div>
+        <div className="publications-time">Spring 2021</div>
         <Publication 
           link=""
           title="Front Porch Kathy"
           source="Wrongdoing Magazine"
         />
+        <div className="publications-time">Winter 2021</div>
         <Publication 
           link=""
           title="Dead Things"
