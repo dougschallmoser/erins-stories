@@ -52,6 +52,8 @@
   100% {filter: none;}
 }
 
+/* Beat */
+
 @keyframes beat {
   0% {transform: scale(1,1);}
   50% {transform: scale(1.2,1.2);}
