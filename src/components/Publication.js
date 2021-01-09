@@ -16,7 +16,7 @@ const Publication = ({ link, title, source }) => {
     <div
       className="publication"
       onClick={link ? handleClick : null}
-      style={{ cursor: link ? "pointer" : "auto", background: displayPreview ? "#00b49628" : null }}
+      style={{ cursor: link ? "pointer" : "default", background: displayPreview ? "#00b49628" : null }}
     >
       {link ? 
         <>
