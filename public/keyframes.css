@@ -25,6 +25,33 @@
   100% {opacity:1;}
 }
 
+/* createBox */
+
+@keyframes createBox {
+  0% {transform: scale(0)}
+  100% {transform: scale(1)}
+}
+
+@-moz-keyframes createBox {
+  0% {transform: scale(0)}
+  100% {transform: scale(1)}
+}
+
+@-webkit-keyframes createBox {
+  0% {transform: scale(0)}
+  100% {transform: scale(1)}
+}
+
+@-o-keyframes createBox {
+  0% {transform: scale(0)}
+  100% {transform: scale(1)}
+}
+
+@-ms-keyframes createBox {
+  0% {transform: scale(0)}
+  100% {transform: scale(1)}
+}
+
 /* Blur */
 
 @keyframes blur {

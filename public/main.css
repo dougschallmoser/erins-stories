@@ -55,23 +55,23 @@ a:hover {
 
 .bio-container {
   background: rgba(0, 0, 0, 0.541);
-  margin-top: 125px;
+  margin-top: 140px;
   width: 800px;
   box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.281);
   border: 1px solid #fff;
-  animation: fadeIn ease 2s;
+  animation: createBox ease 2s, fadeIn ease 2s;
   animation-fill-mode: forwards;
   animation-delay: 3s;
   opacity: 0;
 }
 
 #bio-photo {
-  height: 275px;
+  height: 235px;
 }
 
 #bio-photo img {
   position: relative;
-  top: -35%;
+  top: -50%;
   max-height: 350px;
   border-radius: 50%;
   border: 1px solid #fff;
@@ -105,6 +105,7 @@ a:hover {
 
 #publications {
   margin: 7% 10%;
+  text-align: center;
 }
 
 .header {
@@ -136,7 +137,7 @@ a:hover {
   position: relative;
   width: 700px;
   z-index: 2;
-  animation: fadeIn ease 4s;
+  animation: createBox ease 1s;
   animation-fill-mode: forwards;
 }
 
@@ -241,10 +242,11 @@ a:hover {
 
   .bio-container {
     width: 95vw;
+    margin-top: 120px;
   }
 
   #bio-photo {
-    height: 150px;
+    height: 140px;
   }
 
   #bio-photo img {
@@ -261,7 +263,7 @@ a:hover {
   }
 
   .publication {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .contact-icons a {
