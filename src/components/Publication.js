@@ -13,10 +13,14 @@ const Publication = ({ link, title, source }) => {
   }
 
   return (
-    <div className="publication">
+    <div
+      className="publication"
+      onClick={link ? handleClick : null}
+      style={{ cursor: link ? "pointer" : "auto", background: displayPreview ? "#00b49628" : null }}
+    >
       {link ? 
         <>
-          <span className="publication-title" onClick={handleClick}>"{title}"</span> / <em>{source}</em>
+          <span className="publication-title">"{title}"</span> / <em>{source}</em>
           {displayPreview && 
             <div className="box">
               <div className="close" onClick={handleClose}>close preview</div>
