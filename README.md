@@ -1,8 +1,8 @@
-![Erin's Writing](https://user-images.githubusercontent.com/65590878/103159315-ce719880-477c-11eb-8f42-b0d5acf5f156.png)
+![Erin's Stories](https://user-images.githubusercontent.com/65590878/104112223-ec70ea00-52a0-11eb-8b79-7820a4c89e90.png)
 
-# Erin's Writing
+# Erin's Stories
 
-Personal writing publication portfolio site for Erin Schallmoser. Built with React.
+Literary publication portfolio site for Erin Schallmoser. Built with React.
 
 [Live Demo](https://www.erinschallmoser.com/)
 
