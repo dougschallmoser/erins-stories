@@ -125,8 +125,7 @@ a:hover {
 
 .publication {
   font-size: 20px;
-  line-height: 2em;
-  padding: 0.2% 0;
+  padding: 1% 0;
 }
 
 .publication:hover {
@@ -207,6 +206,7 @@ a:hover {
   display: inline-block;
   text-align: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .contact-icon:not(:last-child) {
