@@ -128,16 +128,30 @@ a:hover {
   padding: 1% 0;
 }
 
-.publication:hover {
+.publication-hover {
+  background: #f2f2f2;
+  font-size: 20px;
+  padding: 1% 0;
+}
+
+.publication-hover2 {
   background: #00b49628;
+  font-size: 20px;
+  padding: 1% 0;
 }
 
 .publication-title {
   color: #00b496;
 }
 
+hr {
+  border-top: 1px dotted rgb(161, 161, 161);
+}
+
 .box {
   position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 700px;
   z-index: 2;
   animation: createBox ease 1s;
@@ -265,7 +279,9 @@ a:hover {
     margin: 9% 2%;
   }
 
-  .publication {
+  .publication,
+  .publication-hover,
+  .publication-hover2 {
     font-size: 12px;
   }
 
