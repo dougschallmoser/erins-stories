@@ -15,7 +15,7 @@ const Publications = () => {
             title="Inherited Beliefs"
             source="Emerge Literary Journal"
           />
-          <hr />
+          
           <Publication 
             link=""
             title="Front Porch Kathy"
@@ -32,25 +32,25 @@ const Publications = () => {
             title="We Know Just Enough"
             source="Schuylkill Valley Journal (Dispatch)"
           />
-          <hr />
+          
           <Publication 
             link=""
             title="Dead Things"
             source="Twin Pies Literary"
           />
-          <hr />
+          
           <Publication 
             link=""
             title="Lydia"
             source="The Hunger"
           />
-          <hr />
+          
           <Publication 
             link=""
             title="The Horses"
             source="(mac)ro(mic)"
           />
-          <hr />
+          
           <Publication 
             link="https://www.secondchancelit.com/schallmoser"
             title="Ingrid's Earthworm"
