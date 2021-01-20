@@ -51,7 +51,7 @@ const Publications = () => {
           />
           
           <Publication 
-            link=""
+            link="https://macromic.org/2021/01/20/the-horses-by-erin-schallmoser/"
             title="The Horses"
             source="(mac)ro(mic)"
           />
