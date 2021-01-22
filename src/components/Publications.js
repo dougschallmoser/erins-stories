@@ -40,14 +40,14 @@ const Publications = () => {
           
           <Publication 
             link=""
-            title="Dead Things"
-            source="Twin Pies Literary"
-          />
-          
-          <Publication 
-            link=""
             title="Lydia"
             source="The Hunger"
+          />
+
+          <Publication 
+            link="https://www.twinpiesliterary.com/nye-special/deadthings"
+            title="Dead Things"
+            source="Twin Pies Literary"
           />
           
           <Publication 
