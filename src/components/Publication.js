@@ -8,10 +8,6 @@ const Publication = ({ link, title, source }) => {
     setDisplayPreview(!displayPreview)
   }
 
-  const handleClose = () => {
-    setDisplayPreview(false)
-  }
-
   const handleHover = (event) => {
     let div = event.currentTarget;
 
@@ -43,8 +39,7 @@ const Publication = ({ link, title, source }) => {
 
           {displayPreview && 
             <div className="box">
-              <div className="close" onClick={handleClose}>close preview</div>
-              <div className="open"><a href={link} target="_blank" rel="noreferrer">open story</a></div>
+              <div className="open"><a href={link} target="_blank" onClick={(e) => e.stopPropagation()} rel="noreferrer">open full story</a></div>
               <iframe id="preview-frame" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" src={link} title="Preview Story" />
             </div> 
           }
