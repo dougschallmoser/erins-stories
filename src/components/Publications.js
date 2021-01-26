@@ -45,6 +45,12 @@ const Publications = () => {
           />
 
           <Publication 
+            link="https://www.etsy.com/uk/listing/949390791/poetry-by-erin-schallmoser"
+            title="Poetry E-Book"
+            source="Violet and the Bird"
+          />
+
+          <Publication 
             link="https://www.twinpiesliterary.com/nye-special/deadthings"
             title="Dead Things"
             source="Twin Pies Literary"
