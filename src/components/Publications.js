@@ -33,7 +33,7 @@ const Publications = () => {
         <div className="publication-container">
           <div className="publications-time">Winter 2021</div>
           <Publication 
-            link=""
+            link="http://www.svjlit.com/dispatches/schuylkill-valley-journal-featuring-the-work-of-authors-and-artists-from-philadelphia-and-beyond-online/2021/1/26/we-know-just-enough-by-erin-schallmoser"
             title="We Know Just Enough"
             source="Schuylkill Valley Journal (Dispatch)"
           />
@@ -42,12 +42,6 @@ const Publications = () => {
             link=""
             title="Lydia"
             source="The Hunger"
-          />
-
-          <Publication 
-            link="https://www.etsy.com/uk/listing/949390791/poetry-by-erin-schallmoser"
-            title="Poetry E-Book"
-            source="Violet and the Bird"
           />
 
           <Publication 
