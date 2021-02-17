@@ -31,17 +31,17 @@ const Publications = () => {
 
       <Fade bottom>
         <div className="publication-container">
-          <div className="publications-time">Winter 2021</div>
+          <div className="publications-time">Winter 2021</div>          
+          <Publication 
+            link="https://www.thehungerjournal.com/lydia-erin-schallmoser"
+            title="Lydia"
+            source="The Hunger"
+          />
+
           <Publication 
             link="http://www.svjlit.com/dispatches/schuylkill-valley-journal-featuring-the-work-of-authors-and-artists-from-philadelphia-and-beyond-online/2021/1/26/we-know-just-enough-by-erin-schallmoser"
             title="We Know Just Enough"
             source="Schuylkill Valley Journal (Dispatch)"
-          />
-          
-          <Publication 
-            link=""
-            title="Lydia"
-            source="The Hunger"
           />
 
           <Publication 
