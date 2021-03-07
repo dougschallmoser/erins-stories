@@ -12,11 +12,6 @@ const Publications = () => {
           <div className="publications-time">Spring 2021</div>
           <Publication 
             link=""
-            title="The Alchemy of Starlight"
-            source="miniskirt magazine"
-          />
-          <Publication 
-            link=""
             title="Inherited Beliefs"
             source="Emerge Literary Journal"
           />
@@ -31,7 +26,17 @@ const Publications = () => {
 
       <Fade bottom>
         <div className="publication-container">
-          <div className="publications-time">Winter 2021</div>          
+          <div className="publications-time">Winter 2021</div>
+          <Publication 
+            link="https://miniskirtmagazine.com/issue-01/the-alchemy-of-starlight-by-erin-schallmoser/"
+            title="The Alchemy of Starlight"
+            source="miniskirt magazine"
+          />
+          <Publication 
+            link="https://www.theaurorajournal.org/aurora-anonymous/writing-as-a-jellyfish-bloom"
+            title="Writing as a Jellyfish Bloom"
+            source="The Aurora Journal (Aurora Anonymous"
+          />               
           <Publication 
             link="https://www.thehungerjournal.com/lydia-erin-schallmoser"
             title="Lydia"
