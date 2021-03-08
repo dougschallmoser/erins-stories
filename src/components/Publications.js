@@ -35,7 +35,7 @@ const Publications = () => {
           <Publication 
             link="https://www.theaurorajournal.org/aurora-anonymous/writing-as-a-jellyfish-bloom"
             title="Writing as a Jellyfish Bloom"
-            source="The Aurora Journal (Aurora Anonymous"
+            source="The Aurora Journal (Aurora Anonymous)"
           />               
           <Publication 
             link="https://www.thehungerjournal.com/lydia-erin-schallmoser"
