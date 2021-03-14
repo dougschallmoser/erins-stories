@@ -12,10 +12,24 @@ const Publications = () => {
           <div className="publications-time">Spring 2021</div>
           <Publication 
             link=""
+            title="Ministrations of the Universe"
+            source="White Wall Review"
+          />
+          <Publication 
+            link=""
+            title="If You Were a Tasmanian Devil"
+            source="Hobart"
+          />
+          <Publication 
+            link=""
+            title="Passenger"
+            source="Rejections Letters"
+          />
+          <Publication 
+            link=""
             title="Inherited Beliefs"
             source="Emerge Literary Journal"
           />
-          
           <Publication 
             link=""
             title="Front Porch Kathy"
@@ -27,6 +41,11 @@ const Publications = () => {
       <Fade bottom>
         <div className="publication-container">
           <div className="publications-time">Winter 2021</div>
+          <Publication 
+            link="https://www.horseeggliterary.com/post/fruit-flies-by-erin-schallmoser"
+            title="Fruit Flies"
+            source="Horse Egg Literary"
+          />
           <Publication 
             link="https://miniskirtmagazine.com/issue-01/the-alchemy-of-starlight-by-erin-schallmoser/"
             title="The Alchemy of Starlight"
