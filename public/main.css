@@ -42,17 +42,6 @@ a:hover {
   opacity: 0;
 }
 
-#subtitle {
-  letter-spacing: 0.5em;
-  background: none;
-  padding-top: 5px;
-  font-size: 32px;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-  opacity: 0;
-}
-
 .bio-container {
   background: rgba(0, 0, 0, 0.541);
   margin-top: 140px;
@@ -181,7 +170,8 @@ a:hover {
   cursor: pointer;
 }
 
-.open a:hover, .close:hover {
+.open a:hover,
+.close:hover {
   color: #00b496;
 }
 
@@ -247,7 +237,6 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
-
   #splash {
     height: 120vh;
     background-attachment: scroll;
@@ -296,16 +285,12 @@ a:hover {
     font-size: 0.75em;
   }
 
-  #subtitle {
-    font-size: 0.5em;
-  }
-
   .box {
     position: relative;
     width: 90vw;
     z-index: 2;
   }
-  
+
   #preview-frame {
     width: 90vw;
     height: 400px;

@@ -9,12 +9,18 @@ const Publications = () => {
 
       <Fade bottom>
         <div className="publication-container">
-          <div className="publications-time">Spring 2021</div>
+          <div className="publications-time">Summer 2021</div>
           <Publication 
             link=""
-            title="Ministrations of the Universe"
-            source="White Wall Review"
+            title="Response to my husband on a Sunday afternoon"
+            source="Moonpark Review"
           />
+        </div>
+      </Fade>
+
+      <Fade bottom>
+        <div className="publication-container">
+          <div className="publications-time">Spring 2021</div>
           <Publication 
             link=""
             title="If You Were a Tasmanian Devil"
@@ -23,7 +29,7 @@ const Publications = () => {
           <Publication 
             link=""
             title="Passenger"
-            source="Rejections Letters"
+            source="Rejection Letters"
           />
           <Publication 
             link=""
@@ -34,6 +40,11 @@ const Publications = () => {
             link=""
             title="Front Porch Kathy"
             source="Wrongdoing Magazine"
+          />
+          <Publication 
+            link="https://whitewallreview.com/ministrations-of-the-universe/"
+            title="Ministrations of the Universe"
+            source="White Wall Review"
           />
         </div>
       </Fade>
