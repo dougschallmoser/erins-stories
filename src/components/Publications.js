@@ -42,6 +42,11 @@ const Publications = () => {
             source="Wrongdoing Magazine"
           />
           <Publication 
+            link="https://www.coveneditions.com/deathcap-april2021"
+            title="Salt Craving / Do You Remember the Ocean"
+            source="deathcab"
+          />
+          <Publication 
             link="https://whitewallreview.com/ministrations-of-the-universe/"
             title="Ministrations of the Universe"
             source="White Wall Review"
