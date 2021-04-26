@@ -44,7 +44,7 @@ const Publications = () => {
           <Publication 
             link="https://www.coveneditions.com/deathcap-april2021"
             title="Salt Craving / Do You Remember the Ocean"
-            source="deathcab"
+            source="deathcap"
           />
           <Publication 
             link="https://whitewallreview.com/ministrations-of-the-universe/"
