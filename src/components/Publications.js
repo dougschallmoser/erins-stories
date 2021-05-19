@@ -28,18 +28,18 @@ const Publications = () => {
           />
           <Publication 
             link=""
-            title="Passenger"
-            source="Rejection Letters"
-          />
-          <Publication 
-            link=""
             title="Inherited Beliefs"
             source="Emerge Literary Journal"
           />
           <Publication 
-            link=""
+            link="https://www.wrongdoingmag.com/spring-2021.html"
             title="Front Porch Kathy"
             source="Wrongdoing Magazine"
+          />
+          <Publication 
+            link="https://rejection-letters.com/2021/05/18/passenger-erin-schallmoser/"
+            title="Passenger"
+            source="Rejection Letters"
           />
           <Publication 
             link="https://www.coveneditions.com/deathcap-april2021"
