@@ -23,13 +23,13 @@ const Publications = () => {
           <div className="publications-time">Spring 2021</div>
           <Publication 
             link=""
-            title="If You Were a Tasmanian Devil"
-            source="Hobart"
-          />
-          <Publication 
-            link=""
             title="Inherited Beliefs"
             source="Emerge Literary Journal"
+          />
+          <Publication 
+            link="https://www.hobartpulp.com/web_features/if-you-were-a-tasmanian-devil"
+            title="If You Were a Tasmanian Devil"
+            source="Hobart"
           />
           <Publication 
             link="https://www.wrongdoingmag.com/spring-2021.html"
