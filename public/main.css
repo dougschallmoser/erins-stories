@@ -88,6 +88,10 @@ a:hover {
   opacity: 0;
 }
 
+#bio-text a {
+  font-family: 'Amatic SC', cursive;
+}
+
 .center {
   text-align: center;
 }
@@ -207,33 +211,29 @@ a:hover {
   text-align: center;
   cursor: pointer;
   text-decoration: none;
-}
-
-.contact-icon:not(:last-child) {
-  margin-right: 3em;
-}
-
-.contact-icons a {
   width: 50px;
   color: #000;
   padding: 26px 34px;
   background: #fff;
   text-decoration: none;
   font-size: 0.7em;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 
-.contact-icons a:hover {
+.contact-icon:hover {
   background: #00b496;
   color: #fff;
-  animation: beat 1s 1 alternate;
-  -webkit-animation: beat 1s 1 alternate;
-  -moz-animation: beat 1s 1 alternate;
-  -o-animation: beat 1s 1 alternate;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
+  transform: scale(1.2);
+}
+
+.contact-icon:not(:last-child) {
+  margin-right: 3em;
+}
+
+@media screen and (max-width: 1050px) {
+  #publications {
+    margin: 7% 2%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -260,14 +260,10 @@ a:hover {
     font-size: 0.5em;
   }
 
-  #publications {
-    margin: 9% 2%;
-  }
-
   .publication,
   .publication-hover,
   .publication-hover2 {
-    font-size: 12px;
+    font-size: 1.25rem;
   }
 
   .contact-icons a {
@@ -299,5 +295,13 @@ a:hover {
 
   #contact {
     padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .publication,
+  .publication-hover,
+  .publication-hover2 {
+    font-size: 1rem;
   }
 }
