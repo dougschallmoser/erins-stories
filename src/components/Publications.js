@@ -12,13 +12,13 @@ const Publications = () => {
           <div className="publications-time">Summer 2021</div>
           <Publication 
             link=""
-            title="Jupiter at the River"
-            source="Red Sledgehammer"
+            title="Red Ribbon"
+            source="Sledgehammer"
           />
           <Publication 
             link=""
-            title="Red Ribbon"
-            source="Red Sledgehammer"
+            title="Jupiter at the River"
+            source="Sledgehammer"
           />
           <Publication 
             link=""
