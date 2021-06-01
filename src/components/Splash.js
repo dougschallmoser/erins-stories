@@ -1,13 +1,13 @@
 import React from 'react';
-import Bio from './Bio';
+import { Main } from './Main';
 
 const Splash = () => {
   return (
     <section id="splash">
       <div id="name">Erin Schallmoser</div>
-      <Bio />
+      <Main />
     </section>
   )
 }
 
-export default Splash;
+export { Splash }

@@ -1,5 +1,5 @@
 import React from 'react';
-import Publication from './Publication';
+import { Publication } from './Publication';
 import Fade from 'react-reveal/Fade';
 
 const Publications = () => {
