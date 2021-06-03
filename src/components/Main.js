@@ -1,20 +1,20 @@
 import React from 'react';
-import { SCMainContainer, SCLeftContainer, SCNavContainer, SCRightContainer, SCNav, SCBackBtn, SCNavItem } from './styles';
+import { SCMainContainer, SCNavContainer, SCPublicationsBtn, SCNav, SCBackBtn, SCNavItem } from './styles';
 import { Publication } from './Publication';
 import { useMain } from './useMain';
+import { Bio } from './Bio';
 
 const Main = () => {
-  const { navigation, backBtnText, onBackHandler,onClickHandler, manyItems, data } = useMain();
+  const { main, setMain, pubTimeframe, openStory, navigation, backBtnText, onBackHandler,onClickHandler, manyItems, data } = useMain();
 
-  return (
-    <SCMainContainer>
-      <SCLeftContainer>
+  const mainClosed = 
+    <>
+        <SCBackBtn onClick={onBackHandler}>
+          &#8592; {backBtnText}
+        </SCBackBtn>
+        {!openStory && <div>{pubTimeframe}</div>}
+        {!openStory &&
         <SCNavContainer>
-          {backBtnText &&
-            <SCBackBtn onClick={onBackHandler}>
-              &#8592; Go back
-            </SCBackBtn>
-          }
           <SCNav>
             {navigation.map(title => 
               <SCNavItem
@@ -27,14 +27,30 @@ const Main = () => {
             )}
           </SCNav>
         </SCNavContainer>
-      </SCLeftContainer>
-      <SCRightContainer>
-        {data && 
-          <Publication 
-            data={data}
-          />
         }
-      </SCRightContainer>
+    </>
+
+  const mainOpen = 
+    <>
+      <Bio setMain={setMain}/>
+      <SCNavContainer>
+        <SCNav>
+          <SCPublicationsBtn onClick={onClickHandler}>
+            View Publications &#8594;
+          </SCPublicationsBtn>
+        </SCNav>
+      </SCNavContainer>
+    </>
+
+  return (
+    <SCMainContainer>
+      {!main && mainClosed }
+      {main && mainOpen}
+      {!main && data && openStory && 
+        <Publication 
+          data={data}
+        />
+      }
     </SCMainContainer>
   )
 }

@@ -109,9 +109,7 @@ export const PublicationData = {
 export const getNavData = (section) => {
   return {
     'main': [
-      'About',
-      'Publications',
-      'Contact'
+      'Goto Publications',
     ],
     'publicationDates': Object.keys(PublicationData),
     'publications': PublicationData[section]

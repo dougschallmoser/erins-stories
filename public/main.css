@@ -28,7 +28,7 @@ a:hover {
   -webkit-background-size: cover;
   width: 100vw;
   height: 100vh;
-  animation: blur ease 4s;
+  animation: blur ease 1s;
   animation-fill-mode: forwards;
 }
 
@@ -44,8 +44,6 @@ a:hover {
 
 .bio-container {
   background: rgba(0, 0, 0, 0.541);
-  margin-top: 140px;
-  width: 800px;
   box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.281);
   border: 1px solid #fff;
   animation: createBox ease 2s, fadeIn ease 2s;
@@ -55,36 +53,25 @@ a:hover {
 }
 
 #bio-photo {
-  height: 235px;
-}
-
-#bio-photo img {
   position: relative;
-  top: -50%;
-  max-height: 350px;
+  max-height: 300px;
   border-radius: 50%;
   border: 1px solid #fff;
   box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.281);
   animation: fadeIn ease 2s;
   animation-fill-mode: forwards;
-  animation-delay: 4.5s;
+  animation-delay: 1s;
   opacity: 0;
 }
 
-#bio-text {
-  margin-bottom: 0.3em;
-}
-
 #bio-text p {
+  width: 85%;
   font-family: 'Amatic SC', cursive;
-  display: table-cell;
-  vertical-align: middle;
-  padding: 1% 2%;
   font-size: 0.6em;
   text-align: center;
   animation: fadeIn ease 2s;
   animation-fill-mode: forwards;
-  animation-delay: 5.5s;
+  animation-delay: 1s;
   opacity: 0;
 }
 
@@ -113,6 +100,7 @@ a:hover {
 }
 
 .publication {
+  margin-top: 1.5rem;
   font-size: 20px;
   padding: 1% 0;
   height: 80%;
@@ -132,6 +120,7 @@ a:hover {
 }
 
 .publication-title {
+  font-size: 1.5rem;
   color: #00b496;
   margin-bottom: 1rem;
 }
@@ -187,47 +176,42 @@ a:hover {
   color: rgb(161, 161, 161);
 }
 
-#contact {
-  padding-top: 25px;
-  padding-bottom: 100px;
-  background: #006958;
-}
-
-#contact .header {
-  color: #fff;
-}
-
-#contact-content {
-  margin: 5% 10%;
+.contact-content {
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
 }
 
 .contact-icons {
-  position: relative;
-  text-align: center;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .contact-icon {
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
-  text-decoration: none;
   width: 50px;
-  color: #000;
-  padding: 26px 34px;
-  background: #fff;
+  color: #00b496;
+  padding: 1rem 1.5rem;
   text-decoration: none;
-  font-size: 0.7em;
+  font-size: 0.3em;
   transition: 0.5s ease;
 }
 
 .contact-icon:hover {
-  background: #00b496;
-  color: #fff;
+  color: #00b496;
   transform: scale(1.2);
 }
 
-.contact-icon:not(:last-child) {
-  margin-right: 3em;
+.contact-icon svg {
+  width: 2rem;
+  height: 2rem;
+  padding-bottom: 0.5rem;
 }
 
 @media screen and (max-width: 1050px) {

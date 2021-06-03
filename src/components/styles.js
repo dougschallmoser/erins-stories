@@ -10,6 +10,7 @@ export const SCMainContainer = styled.div`
   border: 1px solid #fff;
   overflow-y: scroll;
   display: flex;
+  flex-direction column;
 `;
 
 export const SCLeftContainer = styled.div`
@@ -22,35 +23,56 @@ export const SCRightContainer = styled.div`
 `;
 
 export const SCNavContainer = styled.div`
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 `;
 
 export const SCNav = styled.ul`
-  flex: 0 0 80%;
-  text-align: left;
-  padding: 0;
+  padding-left: 0;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  opacity: 0;
+`;
 
-  & span {
-    display: none;
-  }
+export const SCPublicationsBtn = styled.span`
+  font-family: 'Amatic SC', cursive;
+  padding: 0 1rem;
+  background: #00b496;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  opacity: 0;
 `;
 
 export const SCBackBtn = styled.span`
-  font-size: 1.5rem;
-  text-align: left;
-  color: #00b496;
+  position: absolute;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  background: #00b496;
+  border: 2px solid #fff;
+  color: #fff;
   cursor: pointer;
+  animation: fadeIn ease 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 `;
 
 export const SCNavItem = styled.li`
-  width: 250px;
   font-size: ${props => (props.manyItems ? '2.5rem' : '3.5rem')};
   font-family: 'Amatic SC', cursive;
   list-style: none;
   cursor: pointer;
-  white-space: nowrap;
   text-align: left;
-  text-overflow: ellipsis;
   overflow: hidden;
   transition: all 0.2s;
   margin-left: 0;
