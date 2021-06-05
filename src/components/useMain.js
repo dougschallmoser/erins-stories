@@ -30,6 +30,8 @@ export const useMain = () => {
 
   const onBackHandler = (event) => {
     if (navSection === 'publicationDates') {
+      setPubTimeframe('')
+      setData({})
       setNavSection('main')
       return setMain(true)
     }
@@ -39,23 +41,20 @@ export const useMain = () => {
     }
 
     if (navSection === 'publications') {
-      setPubTimeframe('')
       setOpenStory(false);
+      setBackBtnText('Back to Main')
       return setNavSection('publicationDates')
     }
   }
 
-  const navResolver = navSection === 'publications' ? 
-    getNavData(pubTimeframe)[navSection].map(item => item.title)
-    : getNavData(pubTimeframe)[navSection]
-
-  const manyItems = navResolver.length > 5;
+  const manyItems = getNavData(pubTimeframe)[navSection].length > 5;
 
   return {
-    navigation: navResolver,
+    navigation: getNavData(pubTimeframe)[navSection],
     onClickHandler,
     backBtnText,
     onBackHandler,
+    navSection,
     manyItems,
     data, 
     main,

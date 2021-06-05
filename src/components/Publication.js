@@ -8,9 +8,14 @@ const Publication = ({ data }) => {
     >
       {link &&
         <>
-          <span className="publication-title">
-            "{title}"
-          </span> / <em>{source}</em>
+          <div className="publicationTitle">
+            <div id="pub-title-main">
+              "{title}"
+            </div>
+            <div id="pub-title-source">
+              {source}
+            </div>
+          </div>
 
             <div className="box">
               <div className="open"><a href={link} target="_blank" onClick={(e) => e.stopPropagation()} rel="noreferrer">open full story</a></div>

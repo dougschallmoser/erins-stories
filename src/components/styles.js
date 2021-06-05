@@ -13,13 +13,10 @@ export const SCMainContainer = styled.div`
   flex-direction column;
 `;
 
-export const SCLeftContainer = styled.div`
-  flex: 0 0 25%;
-  text-align: left;
-`;
-
-export const SCRightContainer = styled.div`
-  flex: 0 0 75%;
+export const SCPubTimeframe = styled.div`
+  font-family: 'Amatic SC', cursive;
+  font-size: 4rem;
+  border-bottom: 1px solid #00b496;
 `;
 
 export const SCNavContainer = styled.div`
@@ -71,15 +68,26 @@ export const SCNavItem = styled.li`
   font-size: ${props => (props.manyItems ? '2.5rem' : '3.5rem')};
   font-family: 'Amatic SC', cursive;
   list-style: none;
-  cursor: pointer;
+  cursor: ${props => (props.forthcoming ? 'default' : 'pointer')};
   text-align: left;
   overflow: hidden;
   transition: all 0.2s;
   margin-left: 0;
-  color: ${props => (props.currentPub ? '#00b496' : '#fff')};
+  color: ${props => (props.currentNav ? '#00b496' : '#fff')};
+  position: relative;
+  overflow: visible;
 
   &:hover {
-    color: #00b496;
+    color: ${props => (props.forthcoming ? '' : '#00b496')};
+  }
+
+  & span {
+    position: absolute;
+    top: -0.2rem;
+    left: 0;
+    font-size: 0.35em;
+    color: #c4c4c4;
+    cursor: ${props => (props.forthcoming ? 'default' : 'pointer')};
   }
 
 `;

@@ -1,33 +1,45 @@
 import React from 'react';
-import { SCMainContainer, SCNavContainer, SCPublicationsBtn, SCNav, SCBackBtn, SCNavItem } from './styles';
+import { SCMainContainer, SCNavContainer, SCPublicationsBtn, SCPubTimeframe, SCNav, SCBackBtn, SCNavItem } from './styles';
 import { Publication } from './Publication';
 import { useMain } from './useMain';
 import { Bio } from './Bio';
 
 const Main = () => {
-  const { main, setMain, pubTimeframe, openStory, navigation, backBtnText, onBackHandler,onClickHandler, manyItems, data } = useMain();
+  const { main, setMain, navSection, pubTimeframe, openStory, navigation, backBtnText, onBackHandler, onClickHandler, manyItems, data } = useMain();
 
   const mainClosed = 
     <>
-        <SCBackBtn onClick={onBackHandler}>
-          &#8592; {backBtnText}
-        </SCBackBtn>
-        {!openStory && <div>{pubTimeframe}</div>}
-        {!openStory &&
-        <SCNavContainer>
-          <SCNav>
-            {navigation.map(title => 
+      <SCBackBtn onClick={onBackHandler}>
+        &#8592; {backBtnText}
+      </SCBackBtn>
+      {!openStory && <SCPubTimeframe>{navSection === 'publications' && pubTimeframe}</SCPubTimeframe>}
+      {!openStory &&
+      <SCNavContainer>
+        <SCNav>
+          {navSection === 'publicationDates' ? 
+            navigation.map(title => 
               <SCNavItem
-                currentPub={data.title === title}
+                currentNav={data.title === title || pubTimeframe === title}
                 manyItems={manyItems}
                 onClick={onClickHandler}
                 key={title}>
                   {title}
               </SCNavItem>
-            )}
-          </SCNav>
-        </SCNavContainer>
-        }
+            ) :
+            navigation.map(item => 
+              <SCNavItem
+                currentNav={data.title === item.title || pubTimeframe === item.title}
+                forthcoming={item.link === ''}
+                manyItems={manyItems}
+                onClick={onClickHandler}
+                key={item.title}>
+                  {item.title} {!item.link && navSection === 'publications' && <span>forthcoming</span>}
+              </SCNavItem>
+            )
+          }
+        </SCNav>
+      </SCNavContainer>
+      }
     </>
 
   const mainOpen = 
