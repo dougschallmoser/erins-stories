@@ -254,6 +254,7 @@ a:hover {
 @media screen and (max-width: 600px) {
   #splash {
     height: auto;
+    overflow-y: scroll;
   }
 
   #bio-photo {
