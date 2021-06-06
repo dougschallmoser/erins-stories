@@ -53,7 +53,7 @@ a:hover {
 }
 
 #bio-photo {
-  max-height: 300px;
+  max-height: 240px;
   border-radius: 50%;
   border: 1px solid #fff;
   box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.281);
@@ -228,6 +228,10 @@ a:hover {
 }
 
 @media screen and (max-width: 900px) {
+  #bio-photo {
+    max-height: 210px;
+  }
+
   #name {
     font-size: 2rem;
   }
@@ -248,12 +252,16 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  #bio-photo {
+    max-height: 180px;
+  }
+
   #bio-text p {
     font-size: 1.4rem;
   }
 
   #name {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   .publication {
@@ -275,10 +283,6 @@ a:hover {
 @media screen and (max-width: 500px) {
   #bio-text p {
     font-size: 1.4rem;
-  }
-
-  #name {
-    font-size: 1.5rem;
   }
 
   #pub-title-main {

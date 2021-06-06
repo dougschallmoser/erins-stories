@@ -60,10 +60,7 @@ export const SCPublicationsBtn = styled.span`
   animation-fill-mode: forwards;
   animation-delay: 1s;
   opacity: 0;
-
-  @media screen and (max-width: 900px) {
-    font-size: 2.5rem;
-  }
+  font-size: 2.5rem;
 
   @media screen and (max-width: 600px) {
     font-size: 2rem;
