@@ -18,7 +18,6 @@ export const SCMainContainer = styled.div`
     width: 95vw;
     max-width: 100%;
     overflow-x: hidden;
-    height: 85vh;
     max-height: 100%;
     border: none;
     box-shadow: none;
