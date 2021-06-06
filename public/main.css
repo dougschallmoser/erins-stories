@@ -252,12 +252,17 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  #splash {
+    height: auto;
+  }
+
   #bio-photo {
     max-height: 180px;
   }
 
   #bio-text p {
     font-size: 1.4rem;
+    margin-bottom: 1rem;
   }
 
   #name {
@@ -265,7 +270,7 @@ a:hover {
   }
 
   .publication {
-    height: 80%;
+    height: 100%;
     width: 100%;
   }
 
@@ -277,6 +282,11 @@ a:hover {
   #pub-title-source {
     font-size: 2rem;
     max-width: 65%;
+  }
+
+  .contact-icon {
+    width: 30px;
+    font-size: 0.2em;
   }
 }
 

@@ -17,7 +17,8 @@ export const SCMainContainer = styled.div`
     padding: 1rem;
     width: 95vw;
     max-width: 100%;
-    height: 90vh;
+    overflow-x: hidden;
+    height: 85vh;
     max-height: 100%;
     border: none;
     box-shadow: none;
@@ -83,10 +84,12 @@ export const SCBackBtn = styled.span`
 
   @media screen and (max-width: 600px) {
     font-size: 1.5rem;
+    bottom: 1rem;
+    right: 0.5rem;
+    z-index: 100;
   }
 
   @media screen and (max-width: 500px) {
-    margin-top: 1.5rem;
   }
 `;
 
@@ -116,7 +119,11 @@ export const SCNavItem = styled.li`
   }
 
   @media screen and (max-width: 500px) {
-    font-size: ${props => (props.manyItems ? '2rem' : '3rem')};
+    max-width: 340px;
+    font-size: ${props => (props.manyItems ? '1.8rem' : '2.7rem')};
+    white-space: nowrap;
+    overflow: ${props => (props.forthcoming ? 'visible' : 'hidden')};
+    text-overflow: ellipsis;
   }
 
 `;
