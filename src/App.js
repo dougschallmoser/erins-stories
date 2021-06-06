@@ -1,14 +1,13 @@
 import React from 'react';
-import { Splash } from './components/Splash';
-import Publications from './components/Publications';
-import Contact from './components/Contact';
+import { Main } from './components/Main';
 
 const App = () => {
   return (
-    <>
-      <Splash />
-    </>
-  ) 
+    <section id="splash">
+      <div id="name">Erin Schallmoser</div>
+      <Main />
+    </section>
+  )
 }
 
 export { App }

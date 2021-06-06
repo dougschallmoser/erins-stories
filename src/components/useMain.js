@@ -42,6 +42,7 @@ export const useMain = () => {
 
     if (navSection === 'publications') {
       setOpenStory(false);
+      setData({})
       setBackBtnText('Back to Main')
       return setNavSection('publicationDates')
     }

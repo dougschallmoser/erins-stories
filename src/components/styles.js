@@ -11,12 +11,25 @@ export const SCMainContainer = styled.div`
   overflow-y: scroll;
   display: flex;
   flex-direction column;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 95vw;
+    max-width: 100%;
+    height: 90vh;
+    max-height: 100%;
+    border: none;
+    box-shadow: none;
+  }
 `;
 
 export const SCPubTimeframe = styled.div`
   font-family: 'Amatic SC', cursive;
   font-size: 4rem;
   border-bottom: 1px solid #00b496;
+
+  font-size: 3rem;
 `;
 
 export const SCNavContainer = styled.div`
@@ -38,7 +51,7 @@ export const SCNav = styled.ul`
 
 export const SCPublicationsBtn = styled.span`
   font-family: 'Amatic SC', cursive;
-  padding: 0 1rem;
+  padding: 0 1.25rem;
   background: #00b496;
   border: 2px solid #fff;
   color: #fff;
@@ -47,6 +60,14 @@ export const SCPublicationsBtn = styled.span`
   animation-fill-mode: forwards;
   animation-delay: 1s;
   opacity: 0;
+
+  @media screen and (max-width: 900px) {
+    font-size: 2.5rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
 `;
 
 export const SCBackBtn = styled.span`
@@ -62,6 +83,14 @@ export const SCBackBtn = styled.span`
   animation: fadeIn ease 1s;
   animation-fill-mode: forwards;
   opacity: 0;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    margin-top: 1.5rem;
+  }
 `;
 
 export const SCNavItem = styled.li`
@@ -87,7 +116,10 @@ export const SCNavItem = styled.li`
     left: 0;
     font-size: 0.35em;
     color: #c4c4c4;
-    cursor: ${props => (props.forthcoming ? 'default' : 'pointer')};
+  }
+
+  @media screen and (max-width: 500px) {
+    font-size: ${props => (props.manyItems ? '2rem' : '3rem')};
   }
 
 `;

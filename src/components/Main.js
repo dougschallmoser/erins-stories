@@ -3,6 +3,7 @@ import { SCMainContainer, SCNavContainer, SCPublicationsBtn, SCPubTimeframe, SCN
 import { Publication } from './Publication';
 import { useMain } from './useMain';
 import { Bio } from './Bio';
+import Fade from 'react-reveal/Fade';
 
 const Main = () => {
   const { main, setMain, navSection, pubTimeframe, openStory, navigation, backBtnText, onBackHandler, onClickHandler, manyItems, data } = useMain();
@@ -27,14 +28,16 @@ const Main = () => {
               </SCNavItem>
             ) :
             navigation.map(item => 
-              <SCNavItem
-                currentNav={data.title === item.title || pubTimeframe === item.title}
-                forthcoming={item.link === ''}
-                manyItems={manyItems}
-                onClick={onClickHandler}
-                key={item.title}>
-                  {item.title} {!item.link && navSection === 'publications' && <span>forthcoming</span>}
-              </SCNavItem>
+              <Fade bottom>
+                <SCNavItem
+                  currentNav={data.title === item.title || pubTimeframe === item.title}
+                  forthcoming={item.link === ''}
+                  manyItems={manyItems}
+                  onClick={onClickHandler}
+                  key={item.title}>
+                    {item.title} {!item.link && navSection === 'publications' && <span>forthcoming</span>}
+                </SCNavItem>
+              </Fade>
             )
           }
         </SCNav>

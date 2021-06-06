@@ -13,7 +13,7 @@ a:hover {
 }
 
 #splash {
-  position: relative;
+  position: fixed;
   text-align: center;
   font-size: 48px;
   color: #fff;
@@ -124,11 +124,13 @@ a:hover {
 #pub-title-main {
   font-size: 2rem;
   color: #00b496;
+  width: 75%;
 }
 
 #pub-title-source {
   font-family: 'Amatic SC', cursive;
   font-size: 2.5rem;
+  width: 75%;
 }
 
 .box {
@@ -226,61 +228,66 @@ a:hover {
 }
 
 @media screen and (max-width: 900px) {
-  #bio-photo {
-    height: 140px;
-  }
-
-  #bio-photo img {
-    max-height: 220px;
-    top: -65%;
+  #name {
+    font-size: 2rem;
   }
 
   #bio-text p {
-    font-size: 0.5em;
+    font-size: 1.6rem;
   }
 
-  .publication,
-  .publication-hover,
-  .publication-hover2 {
-    font-size: 1.25rem;
+  #pub-title-main {
+    font-size: 1.5rem;
+    max-width: 55%;
   }
 
-  .contact-icons a {
-    padding: 14px 20px;
-    width: 40px;
-    font-size: 9px;
-  }
-
-  .contact-icon:not(:last-child) {
-    margin-right: none;
-  }
-
-  #name {
-    letter-spacing: 0;
-    font-size: 0.75em;
-  }
-
-  .box {
-    position: relative;
-    width: 90vw;
-    z-index: 2;
-  }
-
-  #preview-frame {
-    width: 90vw;
-    height: 400px;
-    border: 3px solid #006958;
-  }
-
-  #contact {
-    padding-bottom: 40px;
+  #pub-title-source {
+    font-size: 2rem;
+    max-width: 55%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .publication,
-  .publication-hover,
-  .publication-hover2 {
+  #bio-text p {
+    font-size: 1.4rem;
+  }
+
+  #name {
+    font-size: 1.7rem;
+  }
+
+  .publication {
+    height: 80%;
+    width: 100%;
+  }
+
+  #pub-title-main {
+    font-size: 1.5rem;
+    max-width: 65%;
+  }
+
+  #pub-title-source {
+    font-size: 2rem;
+    max-width: 65%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #bio-text p {
+    font-size: 1.4rem;
+  }
+
+  #name {
+    font-size: 1.5rem;
+  }
+
+  #pub-title-main {
     font-size: 1rem;
+    max-width: 65%;
+  }
+
+  #pub-title-source {
+    font-size: 1.5rem;
+    max-width: 65%;
   }
 }
