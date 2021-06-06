@@ -87,7 +87,11 @@ export const SCBackBtn = styled.span`
 
   @media screen and (max-width: 500px) {
     top: 1rem;
-    width: 87%;
+    left: -0.5rem;
+    border-left: none;
+    border-right: none;
+    padding: 0.5rem 0;
+    width: 105%;
   }
 }
 `;
