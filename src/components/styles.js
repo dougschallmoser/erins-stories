@@ -83,13 +83,13 @@ export const SCBackBtn = styled.span`
 
   @media screen and (max-width: 600px) {
     font-size: 1.5rem;
-    bottom: 1rem;
-    right: 0.5rem;
-    z-index: 100;
   }
 
   @media screen and (max-width: 500px) {
+    top: 1rem;
+    width: 87%;
   }
+}
 `;
 
 export const SCNavItem = styled.li`
