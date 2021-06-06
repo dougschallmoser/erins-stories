@@ -83,6 +83,7 @@ export const SCBackBtn = styled.span`
 
   @media screen and (max-width: 600px) {
     font-size: 1.5rem;
+    z-index: 10;
   }
 
   @media screen and (max-width: 500px) {
