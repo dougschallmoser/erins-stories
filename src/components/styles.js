@@ -13,6 +13,7 @@ export const SCMainContainer = styled.div`
   flex-direction column;
 
   @media screen and (max-width: 600px) {
+    overflow-y: scroll;
     margin-top: 1rem;
     padding: 1rem;
     width: 95vw;
