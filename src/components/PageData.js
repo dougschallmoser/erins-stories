@@ -1,6 +1,11 @@
 export const PublicationData = {
   'Summer 2021': [
     {
+      title: 'Fake Noodle',
+      link: '',
+      source: 'Variety Pack'
+    },
+    {
       title: 'Red Ribbon',
       link: '',
       source: 'Sledgehammer'
@@ -11,17 +16,17 @@ export const PublicationData = {
       source: 'Sledgehammer'
     },
     {
+      title: 'Inherited Beliefs',
+      link: '',
+      source: 'Emerge Literary Journal'
+    },
+    {
       title: 'Response to my husband on a Sunday afternoon',
       link: 'https://moonparkreview.com/issue-sixteen-summer-2021/response-to-my-husband-on-a-sunday-afternoon/',
       source: 'Moonpark Review'
     }
   ],
   'Spring 2021': [
-    {
-      title: 'Inherited Beliefs',
-      link: '',
-      source: 'Emerge Literary Journal'
-    },
     {
       title: 'If You Were a Tasmanian Devil',
       link: 'https://www.hobartpulp.com/web_features/if-you-were-a-tasmanian-devil',
