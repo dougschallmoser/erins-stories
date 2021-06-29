@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
 export const SCMainContainer = styled.div`
-  margin-top: 2rem;
   padding: 2rem;
   width: 75vw;
-  height: 75vh;
+  height: 85vh;
   background-color: rgba(0,0,0, 0.541);
   box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.281);
   border: 1px solid #fff;
