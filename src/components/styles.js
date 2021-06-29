@@ -19,13 +19,10 @@ export const SCMainContainer = styled.div`
     margin-top: 0;
     padding: 1rem 0;
     width: 100vw;
-    height: auto;
+    height: 100%;
     border: none;
     box-shadow: none;
-    height: auto;
     max-width: 100%;
-    border: none;
-    box-shadow: none;
   }
 `;
 

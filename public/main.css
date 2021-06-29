@@ -263,15 +263,20 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   #splash {
-    display: block;
+    position: relative;
   }
 
   #bio-photo {
     max-height: 180px;
   }
 
+  #bio-text {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   #bio-text p {
-    font-size: 1.4rem;
+    font-size: 2rem;
   }
 
   #name {
@@ -305,10 +310,6 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  #bio-text p {
-    font-size: 1.4rem;
-  }
-
   #pub-title-main {
     font-size: 1rem;
     max-width: 65%;
