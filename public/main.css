@@ -30,10 +30,12 @@ a:hover {
   height: 100vh;
   animation: blur ease 1s;
   animation-fill-mode: forwards;
+  display: flex;
+  align-items: center;
 }
 
 #name {
-  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   background: none;
   letter-spacing: 0.5em;
   animation: fadeIn ease 2.5s;
@@ -257,6 +259,10 @@ a:hover {
 }
 
 @media screen and (max-width: 600px) {
+  #splash {
+    display: block;
+  }
+
   #bio-photo {
     max-height: 180px;
   }
@@ -289,6 +295,11 @@ a:hover {
     width: 30px;
     font-size: 0.2em;
   }
+
+  .box {
+    width: 95%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -304,9 +315,5 @@ a:hover {
   #pub-title-source {
     font-size: 1.5rem;
     max-width: 65%;
-  }
-
-  .box {
-    width: 95%;
   }
 }

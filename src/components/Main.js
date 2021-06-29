@@ -47,6 +47,7 @@ const Main = () => {
 
   const mainOpen = 
     <>
+      <div id="name">Erin Schallmoser</div>
       <Bio setMain={setMain}/>
       <SCNavContainer>
         <SCNav>

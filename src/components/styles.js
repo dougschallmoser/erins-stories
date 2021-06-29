@@ -12,13 +12,20 @@ export const SCMainContainer = styled.div`
   display: flex;
   flex-direction column;
 
+  @media screen and (max-width: 1100px) {
+    width: 85vw;
+  }
+
   @media screen and (max-width: 600px) {
     overflow-y: scroll;
-    margin-top: 1rem;
-    padding: 1rem;
-    width: 95vw;
+    margin-top: 0;
+    padding: 1rem 0;
+    width: 100vw;
+    height: auto;
+    border: none;
+    box-shadow: none;
+    height: auto;
     max-width: 100%;
-    overflow-x: hidden;
     max-height: 100%;
     border: none;
     box-shadow: none;
@@ -83,17 +90,15 @@ export const SCBackBtn = styled.span`
   opacity: 0;
 
   @media screen and (max-width: 600px) {
-    font-size: 1.5rem;
-    z-index: 10;
-  }
-
-  @media screen and (max-width: 500px) {
+    position: relative;
+    margin-bottom: 2rem;
     top: 1rem;
     left: -0.5rem;
     border-left: none;
     border-right: none;
     padding: 0.5rem 0;
     width: 105%;
+    z-index: 10;
   }
 }
 `;
