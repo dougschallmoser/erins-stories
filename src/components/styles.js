@@ -24,7 +24,6 @@ export const SCMainContainer = styled.div`
     box-shadow: none;
     height: auto;
     max-width: 100%;
-    max-height: 100%;
     border: none;
     box-shadow: none;
   }
