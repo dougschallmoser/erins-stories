@@ -35,6 +35,7 @@ a:hover {
 }
 
 #name {
+  font-size: 2.5rem;
   padding-bottom: 1.5rem;
   background: none;
   letter-spacing: 0.5em;
