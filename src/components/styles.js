@@ -18,7 +18,7 @@ export const SCMainContainer = styled.div`
   @media screen and (max-width: 600px) {
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 95%;
     margin: 3rem 0;
     border: none;
     box-shadow: none;
