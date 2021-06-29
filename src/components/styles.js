@@ -17,12 +17,11 @@ export const SCMainContainer = styled.div`
 
   @media screen and (max-width: 600px) {
     margin-top: 0;
-    padding: 1rem 0;
-    width: 100vw;
-    height: 100%;
+    padding: 0;
+    width: 100%;
     border: none;
     box-shadow: none;
-    max-width: 100%;
+    overflow-x: hidden;
   }
 `;
 

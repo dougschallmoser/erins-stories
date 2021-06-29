@@ -271,8 +271,8 @@ a:hover {
   }
 
   #bio-text {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   #bio-text p {
@@ -280,7 +280,8 @@ a:hover {
   }
 
   #name {
-    font-size: 1.3rem;
+    padding-top: 0.5rem;
+    font-size: 1.6rem;
   }
 
   .publication {
