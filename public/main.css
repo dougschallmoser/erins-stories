@@ -65,6 +65,10 @@ a:hover {
   opacity: 0;
 }
 
+#bio-text {
+  padding-bottom: 2rem;
+}
+
 #bio-text p {
   width: 85%;
   font-family: 'Amatic SC', cursive;
@@ -226,7 +230,6 @@ a:hover {
 @media screen and (max-width: 1100px) {
   #bio-text p {
     width: 100%;
-    margin-bottom: 1rem;
   }
 
   #bio-photo {
@@ -269,7 +272,6 @@ a:hover {
 
   #bio-text p {
     font-size: 1.4rem;
-    margin-bottom: 3rem;
   }
 
   #name {

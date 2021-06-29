@@ -8,7 +8,7 @@ export const SCMainContainer = styled.div`
   background-color: rgba(0,0,0, 0.541);
   box-shadow: 0px 0px 30px 4px rgba(255, 255, 255, 0.281);
   border: 1px solid #fff;
-  overflow-y: hidden;
+  overflow-y: scroll;
   display: flex;
   flex-direction column;
 
@@ -17,7 +17,6 @@ export const SCMainContainer = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    overflow-y: scroll;
     margin-top: 0;
     padding: 1rem 0;
     width: 100vw;
