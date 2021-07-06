@@ -1,11 +1,6 @@
 export const PublicationData = {
   'Summer 2021': [
     {
-      title: 'Fake Noodle',
-      link: '',
-      source: 'Variety Pack'
-    },
-    {
       title: 'Red Ribbon',
       link: '',
       source: 'Sledgehammer'
@@ -19,6 +14,11 @@ export const PublicationData = {
       title: 'Inherited Beliefs',
       link: '',
       source: 'Emerge Literary Journal'
+    },
+    {
+      title: 'Fake Noodle',
+      link: 'https://issuu.com/varietypackzine/docs/varietypack_issuefive',
+      source: 'Variety Pack'
     },
     {
       title: 'Response to my husband on a Sunday afternoon',
