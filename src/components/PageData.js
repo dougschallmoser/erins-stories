@@ -1,12 +1,12 @@
 export const PublicationData = {
   'Summer 2021': [
     {
-      title: 'Red Ribbon',
+      title: 'Follow Through',
       link: '',
-      source: 'Sledgehammer'
+      source: 'Rejection Letters'
     },
     {
-      title: 'Jupiter at the River',
+      title: 'Red Ribbon',
       link: '',
       source: 'Sledgehammer'
     },
@@ -14,6 +14,11 @@ export const PublicationData = {
       title: 'Inherited Beliefs',
       link: '',
       source: 'Emerge Literary Journal'
+    },
+    {
+      title: 'Jupiter at the River',
+      link: 'https://www.sledgehammerlit.com/post/jupiter-at-the-river-by-erin-schallmoser',
+      source: 'Sledgehammer'
     },
     {
       title: 'Fake Noodle',

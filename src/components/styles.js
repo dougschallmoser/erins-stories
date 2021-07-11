@@ -106,7 +106,7 @@ export const SCNavItem = styled.li`
   overflow: hidden;
   transition: all 0.2s;
   margin-left: 0;
-  color: ${props => (props.currentNav ? '#00b496' : '#fff')};
+  color: ${props => (props.forthcoming ? '#c4c4c4' : props.currentNav ? '#00b496' : '#fff')};
   position: relative;
   overflow: visible;
 
@@ -119,7 +119,7 @@ export const SCNavItem = styled.li`
     top: -0.2rem;
     left: 0;
     font-size: 0.35em;
-    color: #c4c4c4;
+    color: #3af0d1;
   }
 
   @media screen and (max-width: 500px) {
