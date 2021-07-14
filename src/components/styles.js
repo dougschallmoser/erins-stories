@@ -111,7 +111,7 @@ export const SCNavItem = styled.li`
   overflow: visible;
 
   &:hover {
-    color: ${props => (props.forthcoming ? '' : '#00b496')};
+    color: ${props => (props.forthcoming ? '' : props.currentNav ? '#00b496' : '#02f5cc')};
   }
 
   & span {

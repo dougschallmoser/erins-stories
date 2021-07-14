@@ -84,6 +84,7 @@ a:hover {
 
 #bio-text a {
   font-family: 'Amatic SC', cursive;
+  color: #02f5cc;
 }
 
 .center {
@@ -131,7 +132,7 @@ a:hover {
 
 #pub-title-main {
   font-size: 2rem;
-  color: #00b496;
+  color: #02f5cc;
   width: 75%;
 }
 
@@ -211,7 +212,7 @@ a:hover {
   align-items: center;
   cursor: pointer;
   width: 50px;
-  color: #fff;
+  color: #02f5cc;
   padding: 1rem 1.5rem;
   text-decoration: none;
   font-size: 0.3em;
@@ -219,7 +220,7 @@ a:hover {
 }
 
 .contact-icon:hover {
-  color: #00b496;
+  color: #02f5cc;
   transform: scale(1.2);
 }
 

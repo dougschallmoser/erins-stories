@@ -113,6 +113,13 @@ export const PublicationData = {
       link: 'https://flashfictionmagazine.com/blog/2020/07/18/the-crawdad/',
       source: 'Flash Fiction Magazine'
     }
+  ],
+  'Other Writing': [
+    {
+      title: `Review: Leonie Rowland's "The Dressmaker`,
+      link: 'https://www.wrongdoingmag.com/blog/review-leonie-rowland',
+      source: 'Wrongdoing Magazine'
+    },
   ]
 }
 
