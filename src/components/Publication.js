@@ -1,6 +1,6 @@
 const Publication = ({ data }) => {
 
-  const { link, title, source } = data;
+  const { link, title, source, date } = data;
 
   return (
     <div
@@ -14,6 +14,9 @@ const Publication = ({ data }) => {
             </div>
             <div id="pub-title-source">
               {source}
+            </div>
+            <div id="pub-title-date">
+              Published on {date ?? null}
             </div>
           </div>
 

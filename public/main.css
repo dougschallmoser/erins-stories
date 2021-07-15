@@ -142,9 +142,15 @@ a:hover {
   width: 75%;
 }
 
+#pub-title-date {
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.8rem;
+  width: 75%;
+  color: #c4c4c4;
+}
+
 .box {
   position: relative;
-  margin-top: 15px;
   height: 96%;
   width: 100%;
   z-index: 2;
@@ -262,6 +268,11 @@ a:hover {
     font-size: 2rem;
     max-width: 55%;
   }
+
+  #pub-title-date {
+    font-size: 1.5rem;
+    max-width: 55%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -298,7 +309,11 @@ a:hover {
   }
 
   #pub-title-source {
-    font-size: 2rem;
+    max-width: 65%;
+  }
+
+  #pub-title-date {
+    font-size: 1.5rem;
     max-width: 65%;
   }
 
@@ -321,6 +336,9 @@ a:hover {
 
   #pub-title-source {
     font-size: 1.5rem;
-    max-width: 65%;
+  }
+
+  #pub-title-date {
+    font-size: 1.2rem;
   }
 }
