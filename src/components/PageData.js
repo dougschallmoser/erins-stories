@@ -13,10 +13,16 @@ export const PublicationData = {
       date: ''
     },
     {
+      title: 'At the pop punk concert',
+      link: 'https://maudlinhouse.net/at-the-pop-punk-concert/',
+      source: 'Maudlin House',
+      date: '07/27/2021'
+    },
+    {
       title: 'Inherited Beliefs',
-      link: '',
+      link: 'https://emergeliteraryjournal.com/inherited-beliefs/',
       source: 'Emerge Literary Journal',
-      date: ''
+      date: '07/26/2021'
     },
     {
       title: 'Jupiter at the River',
