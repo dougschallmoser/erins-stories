@@ -8,9 +8,9 @@ export const PublicationData = {
     },
     {
       title: 'Red Ribbon',
-      link: '',
+      link: 'https://www.sledgehammerlit.com/post/red-ribbon-by-erin-schallmoser',
       source: 'Sledgehammer',
-      date: ''
+      date: '08/08/2021'
     },
     {
       title: 'At the pop punk concert',
