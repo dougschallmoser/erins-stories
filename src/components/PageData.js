@@ -13,6 +13,12 @@ export const PublicationData = {
       date: '08/08/2021'
     },
     {
+      title: 'Chocolate, Chocolate',
+      link: 'https://florafiction.com/chocolate-chocolate-by-erin-schallmoser/',
+      source: 'Flora Fiction',
+      date: '08/03/2021'
+    },
+    {
       title: 'At the pop punk concert',
       link: 'https://maudlinhouse.net/at-the-pop-punk-concert/',
       source: 'Maudlin House',
