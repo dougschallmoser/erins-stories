@@ -3,7 +3,7 @@ export const PublicationData = {
     {
       title: 'Follow Through',
       link: 'https://rejection-letters.com/2021/12/24/follow-through-erin-schallmoser/',
-      source: 'Rejection Letters',
+      source: 'Rejection Letter',
       date: '12/24/2021'
     }
   ],
