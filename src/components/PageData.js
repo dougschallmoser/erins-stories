@@ -1,5 +1,5 @@
 export const PublicationData = {
-  'Winter 2021': [
+  'Winter 2022': [
     {
       title: 'Follow Through',
       link: 'https://rejection-letters.com/2021/12/24/follow-through-erin-schallmoser/',
