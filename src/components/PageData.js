@@ -1,11 +1,13 @@
 export const PublicationData = {
-  'Summer 2021': [
+  'Winter 2021': [
     {
       title: 'Follow Through',
-      link: '',
+      link: 'https://rejection-letters.com/2021/12/24/follow-through-erin-schallmoser/',
       source: 'Rejection Letters',
-      date: ''
-    },
+      date: '12/24/2021'
+    }
+  ],
+  'Summer 2021': [
     {
       title: 'Red Ribbon',
       link: 'https://www.sledgehammerlit.com/post/red-ribbon-by-erin-schallmoser',
