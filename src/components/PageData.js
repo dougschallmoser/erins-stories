@@ -1,13 +1,13 @@
 export const PublicationData = {
   'Spring 2022': [
     {
-      title: 'bouquet',
+      title: 'a bouquet',
       link: '',
       source: '',
       date: ''
     },
     {
-      title: 'Being Careful',
+      title: 'Be Careful',
       link: '',
       source: '',
       date: ''
