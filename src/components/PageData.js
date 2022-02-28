@@ -1,9 +1,21 @@
 export const PublicationData = {
   'Spring 2022': [
     {
-      title: 'Biomass',
+      title: 'bouquet',
       link: '',
-      source: 'Biomess',
+      source: '',
+      date: ''
+    },
+    {
+      title: 'Being Careful',
+      link: '',
+      source: '',
+      date: ''
+    },
+    {
+      title: 'Biomass / Biomess',
+      link: '',
+      source: '',
       date: ''
     }
   ],
