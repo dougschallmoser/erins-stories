@@ -7,16 +7,16 @@ export const PublicationData = {
       date: ''
     },
     {
-      title: 'Be Careful',
+      title: 'Biomass / Biomess',
       link: '',
       source: '',
       date: ''
     },
     {
-      title: 'Biomass / Biomess',
-      link: '',
+      title: 'Be Careful',
+      link: 'https://oneartpoetry.com/2022/03/04/be-careful-by-erin-schallmoser/',
       source: '',
-      date: ''
+      date: '03/04/2022'
     }
   ],
   'Winter 2022': [
