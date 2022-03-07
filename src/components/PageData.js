@@ -11,15 +11,15 @@ export const PublicationData = {
       link: '',
       source: '',
       date: ''
-    },
+    }
+  ],
+  'Winter 2022': [
     {
       title: 'Be Careful',
       link: 'https://oneartpoetry.com/2022/03/04/be-careful-by-erin-schallmoser/',
       source: '',
       date: '03/04/2022'
-    }
-  ],
-  'Winter 2022': [
+    },
     {
       title: 'Follow Through',
       link: 'https://rejection-letters.com/2021/12/24/follow-through-erin-schallmoser/',
