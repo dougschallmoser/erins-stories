@@ -13,7 +13,7 @@ export const PublicationData = {
       date: '04/07/2022'
     },
     {
-      title: 'a pile of bison dung..." / "How to Make a Mountain',
+      title: 'a pile of bison dung... / How to Make a Mountain',
       link: 'https://www.paperbarkmag.org/poetry-online/a-pile-of-bison-dung-can-support-more-than-a-hundred-different-species-of-insects',
       source: 'paperbark',
       date: '04/06/2022'
