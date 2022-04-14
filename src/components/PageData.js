@@ -2,9 +2,9 @@ export const PublicationData = {
   'Spring 2022': [
     {
       title: 'Biomass / Biomess',
-      link: '',
-      source: '',
-      date: ''
+      link: 'https://nurtureliterary.com/post/681484477385572352/biomass-biomess',
+      source: 'Nurture Literary',
+      date: '04/14/2022'
     },
     {
       title: 'a bouquet',
