@@ -1,6 +1,12 @@
 export const PublicationData = {
   'Spring 2022': [
     {
+      title: 'The fur of a bear',
+      link: 'https://www.dustpoetry.co.uk/post/the-fur-of-a-bear-by-erin-schallmoser',
+      source: 'Dust Poetry May',
+      date: '06/04/2022'
+    },
+    {
       title: 'Biomass / Biomess',
       link: 'https://nurtureliterary.com/post/681484477385572352/biomass-biomess',
       source: 'Nurture Literary',
