@@ -1,5 +1,31 @@
 export const PublicationData = {
+  'Summer 2022': [
+    {
+      title: `Blue Lake`,
+      link: 'https://www.catchwatermagazine.com/issue-4-re-birth',
+      source: 'Catchwater Magazine',
+      date: '08/12/2022'
+    },
+    {
+      title: `John at the Washington State Department of Licensing`,
+      link: 'https://www.dearpoetryjournal.com/erinschallmoser ',
+      source: 'DEAR Poetry Journal',
+      date: '08/06/2022'
+    }
+  ],
   'Spring 2022': [
+    {
+      title: `Mold Has Been Growing on Our Bedroom Window`,
+      link: 'https://www.evokelit.com/blank-page-25',
+      source: 'Evoke Lit Mag',
+      date: '06/07/2022'
+    },
+    {
+      title: `If He Wasn't Working on a Sunday`,
+      link: 'https://www.evokelit.com/blank-page-24',
+      source: 'Evoke Lit Mag',
+      date: '06/07/2022'
+    },
     {
       title: 'The fur of a bear',
       link: 'https://www.dustpoetry.co.uk/post/the-fur-of-a-bear-by-erin-schallmoser',
