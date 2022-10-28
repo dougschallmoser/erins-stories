@@ -1,4 +1,12 @@
 export const PublicationData = {
+    'Fall 2022': [
+    {
+      title: `New Moon in Aquarius`,
+      link: 'https://www.maiden-magazine.com/erin-schallmoser',
+      source: 'Maiden Magazine',
+      date: '10/14/2022'
+    }
+  ],
   'Summer 2022': [
     {
       title: `Blue Lake`,
